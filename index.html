@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>NepalGadgetsPasal – Latest Gadgets at Best Prices</title>
+<meta name="description" content="Nepal's most trusted gadget store."/>
+<link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+<link rel="dns-prefetch" href="https://images.unsplash.com"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Space+Mono:wght@700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-logo"><i class="fa fa-bolt"></i> NepalGadgetsPasal</div>
+  <div class="loader-bar"><div class="loader-fill"></div></div>
+  <p>Loading gadgets...</p>
+</div>
+
+<!-- PROMO BANNER -->
+<div class="promo-banner" id="promo-banner">
+  <i class="fa fa-gift"></i>
+  FREE Delivery on orders above Rs. 5,000 &nbsp;|&nbsp; Use code <strong>NEPALGADGETS</strong>
+  <button class="promo-close" id="promo-close">✕</button>
+</div>
+
+<!-- TOAST -->
+<div id="toast"><i class="fa fa-check-circle" id="toast-icon"></i><span id="toast-msg">Done!</span></div>
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
+  <div class="nav-wrap">
+    <a href="#home" class="logo"><i class="fa fa-bolt"></i><span>Nepal<em>Gadgets</em>Pasal</span></a>
+    <nav class="nav-links" id="nav-links">
+      <a href="#home" class="nl active">Home</a>
+      <a href="#shop" class="nl">Shop</a>
+      <a href="#categories" class="nl">Categories</a>
+      <a href="#deals" class="nl">Deals</a>
+      <a href="#about" class="nl">About</a>
+      <a href="#contact" class="nl">Contact</a>
+    </nav>
+    <div class="nav-search">
+      <i class="fa fa-search search-icon"></i>
+      <input type="text" id="search-input" placeholder="Search gadgets..." autocomplete="off"/>
+      <div id="search-drop" class="search-drop"></div>
+    </div>
+    <div class="nav-actions">
+      <button class="icon-btn" id="theme-btn" title="Toggle theme"><i class="fa fa-sun" id="theme-icon"></i></button>
+      <button class="icon-btn" id="wish-btn"><i class="fa fa-heart"></i><span class="badge" id="wish-count">0</span></button>
+      <button class="icon-btn" id="cart-btn"><i class="fa fa-shopping-cart"></i><span class="badge" id="cart-count">0</span></button>
+      <button class="btn-outline" id="login-btn"><i class="fa fa-user"></i> Login</button>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-bg">
+    <div class="grid-overlay"></div>
+    <div class="glow1"></div>
+    <div class="glow2"></div>
+  </div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <div class="hero-badge"><i class="fa fa-star"></i> Nepal's #1 Gadget Store</div>
+      <h1>
+        <span class="nepali-text">नेपालकै भरपर्दो</span>
+        <span class="grad">ग्याजेट पसल</span>
+      </h1>
+      <p class="hero-sub">Latest Gadgets at Best Prices — Delivered to Your Door</p>
+      <p class="hero-desc">Shop smartphones, laptops, smartwatches, earbuds & more. 100% genuine products with full warranty.</p>
+      <div class="hero-btns">
+        <a href="#shop" class="btn-primary nav-scroll"><i class="fa fa-shopping-bag"></i> Shop Now</a>
+        <a href="#deals" class="btn-glass nav-scroll"><i class="fa fa-tag"></i> View Deals</a>
+      </div>
+      <div class="hero-stats">
+        <div class="hstat"><strong>5000+</strong><span>Products</span></div>
+        <div class="hdiv"></div>
+        <div class="hstat"><strong>10K+</strong><span>Customers</span></div>
+        <div class="hdiv"></div>
+        <div class="hstat"><strong>100%</strong><span>Genuine</span></div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="phone-card">
+        <i class="fa fa-mobile-alt"></i>
+        <div class="float-tag t1"><i class="fa fa-check"></i> Free Delivery</div>
+        <div class="float-tag t2"><i class="fa fa-shield-alt"></i> Warranty</div>
+        <div class="float-tag t3"><i class="fa fa-bolt"></i> Fast Ship</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track">
+    <span><i class="fa fa-truck"></i> Free Delivery above Rs.5,000</span>
+    <span><i class="fa fa-shield-alt"></i> 100% Genuine Products</span>
+    <span><i class="fa fa-undo"></i> 7-Day Easy Returns</span>
+    <span><i class="fa fa-bolt"></i> Same-Day Dispatch</span>
+    <span><i class="fa fa-headset"></i> 24/7 Support</span>
+    <span><i class="fa fa-tag"></i> Best Price Guarantee</span>
+    <span><i class="fa fa-star"></i> 4.9★ Rated by 10,000+ Customers</span>
+    <span><i class="fa fa-lock"></i> Secure eSewa & Khalti Payments</span>
+    <span><i class="fa fa-truck"></i> Free Delivery above Rs.5,000</span>
+    <span><i class="fa fa-shield-alt"></i> 100% Genuine Products</span>
+    <span><i class="fa fa-undo"></i> 7-Day Easy Returns</span>
+    <span><i class="fa fa-bolt"></i> Same-Day Dispatch</span>
+    <span><i class="fa fa-headset"></i> 24/7 Support</span>
+    <span><i class="fa fa-tag"></i> Best Price Guarantee</span>
+    <span><i class="fa fa-star"></i> 4.9★ Rated by 10,000+ Customers</span>
+    <span><i class="fa fa-lock"></i> Secure eSewa & Khalti Payments</span>
+  </div>
+</div>
+
+<!-- TRUST BADGES -->
+<section class="trust-section">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item"><div class="ti"><i class="fa fa-truck"></i></div><div><h4>Fast Delivery</h4><p>Kathmandu same day</p></div></div>
+      <div class="trust-item"><div class="ti"><i class="fa fa-shield-alt"></i></div><div><h4>100% Genuine</h4><p>Official warranty</p></div></div>
+      <div class="trust-item"><div class="ti"><i class="fa fa-undo"></i></div><div><h4>Easy Returns</h4><p>7-day hassle free</p></div></div>
+      <div class="trust-item"><div class="ti"><i class="fa fa-lock"></i></div><div><h4>Secure Payment</h4><p>eSewa, Khalti, COD</p></div></div>
+      <div class="trust-item"><div class="ti"><i class="fa fa-headset"></i></div><div><h4>24/7 Support</h4><p>WhatsApp & Email</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="section bg2" id="categories">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-label">Browse By</span>
+      <h2>Product <em>Categories</em></h2>
+      <p>Find exactly what you need from our wide range</p>
+    </div>
+    <div class="cat-grid">
+      <div class="cat-card" data-filter="smartphones"><div class="cat-icon"><i class="fa fa-mobile-alt"></i></div><h3>Smartphones</h3><span>120+ Products</span></div>
+      <div class="cat-card" data-filter="laptops"><div class="cat-icon"><i class="fa fa-laptop"></i></div><h3>Laptops</h3><span>85+ Products</span></div>
+      <div class="cat-card" data-filter="smartwatches"><div class="cat-icon"><i class="fa fa-clock"></i></div><h3>Smartwatches</h3><span>60+ Products</span></div>
+      <div class="cat-card" data-filter="earbuds"><div class="cat-icon"><i class="fa fa-headphones-alt"></i></div><h3>Earbuds</h3><span>95+ Products</span></div>
+      <div class="cat-card" data-filter="gaming"><div class="cat-icon"><i class="fa fa-gamepad"></i></div><h3>Gaming</h3><span>70+ Products</span></div>
+      <div class="cat-card" data-filter="cameras"><div class="cat-icon"><i class="fa fa-camera"></i></div><h3>Cameras</h3><span>45+ Products</span></div>
+      <div class="cat-card" data-filter="speakers"><div class="cat-icon"><i class="fa fa-volume-up"></i></div><h3>Speakers</h3><span>55+ Products</span></div>
+      <div class="cat-card" data-filter="smarthome"><div class="cat-icon"><i class="fa fa-home"></i></div><h3>Smart Home</h3><span>40+ Products</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FLASH SALE -->
+<section class="flash-section section" id="deals">
+  <div class="container">
+    <div class="flash-inner">
+      <div class="flash-left">
+        <div class="flash-badge"><i class="fa fa-bolt"></i> Flash Sale</div>
+        <h2>Up to <span>50% Off</span></h2>
+        <p>Limited time offer — Grab your favourite gadgets before stock runs out!</p>
+        <a href="#shop" class="btn-primary nav-scroll"><i class="fa fa-shopping-bag"></i> Shop Flash Sale</a>
+      </div>
+      <div class="flash-right">
+        <p class="timer-label">Sale Ends In:</p>
+        <div class="countdown">
+          <div class="cbox"><span id="chours">00</span><label>Hours</label></div>
+          <div class="csep">:</div>
+          <div class="cbox"><span id="cmins">00</span><label>Mins</label></div>
+          <div class="csep">:</div>
+          <div class="cbox"><span id="csecs">00</span><label>Secs</label></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SHOP -->
+<section class="section" id="shop">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-label">Hand-Picked</span>
+      <h2>Featured <em>Products</em></h2>
+      <p>Top-rated gadgets loved by thousands of Nepali customers</p>
+    </div>
+    <div class="filter-tabs">
+      <button class="ftab active" data-filter="all">All</button>
+      <button class="ftab" data-filter="smartphones">Smartphones</button>
+      <button class="ftab" data-filter="laptops">Laptops</button>
+      <button class="ftab" data-filter="earbuds">Earbuds</button>
+      <button class="ftab" data-filter="smartwatches">Smartwatches</button>
+      <button class="ftab" data-filter="gaming">Gaming</button>
+      <button class="ftab" data-filter="speakers">Speakers</button>
+      <button class="ftab" data-filter="cameras">Cameras</button>
+    </div>
+    <div class="products-grid" id="products-grid"></div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section bg2" id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-left">
+        <div class="about-main-card"><i class="fa fa-store"></i><h3>NepalGadgetsPasal</h3><p>Your Trusted Tech Partner</p></div>
+        <div class="about-stats">
+          <div class="astat"><strong>5K+</strong><p>Products</p></div>
+          <div class="astat"><strong>10K+</strong><p>Customers</p></div>
+          <div class="astat"><strong>4.9★</strong><p>Rating</p></div>
+          <div class="astat"><strong>3+</strong><p>Years</p></div>
+        </div>
+      </div>
+      <div class="about-right">
+        <span class="sec-label">About Us</span>
+        <h2>Nepal's Most <em>Trusted</em> Gadget Store</h2>
+        <p>NepalGadgetsPasal was founded with a simple mission: to provide every Nepali with access to the latest technology at fair, transparent prices.</p>
+        <p>We source directly from authorized distributors ensuring 100% genuine products with full manufacturer warranty — delivered from Kathmandu to every corner of Nepal.</p>
+        <div class="about-feats">
+          <div class="afeat"><i class="fa fa-check-circle"></i> 100% Genuine Products</div>
+          <div class="afeat"><i class="fa fa-check-circle"></i> Fast Nationwide Delivery</div>
+          <div class="afeat"><i class="fa fa-check-circle"></i> 7-Day Easy Returns</div>
+          <div class="afeat"><i class="fa fa-check-circle"></i> Official Warranty Support</div>
+          <div class="afeat"><i class="fa fa-check-circle"></i> Secure Online Payments</div>
+          <div class="afeat"><i class="fa fa-check-circle"></i> 24/7 Customer Support</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="sec-head">
+      <span class="sec-label">Get In Touch</span>
+      <h2>Contact <em>Us</em></h2>
+      <p>We're here to help — reach us anytime</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="owner-card">
+          <i class="fa fa-user-circle owner-icon"></i>
+          <div><h3>Mukesh Kumar Sah</h3><p>Owner, NepalGadgetsPasal</p></div>
+        </div>
+        <a href="https://wa.me/9779763332837" target="_blank" class="citem wa"><i class="fab fa-whatsapp"></i><div><span>WhatsApp</span><strong>+977 9763332837</strong></div></a>
+        <a href="mailto:shahmukesh0563@gmail.com" class="citem em"><i class="fa fa-envelope"></i><div><span>Email</span><strong>shahmukesh0563@gmail.com</strong></div></a>
+        <div class="citem lo"><i class="fa fa-map-marker-alt"></i><div><span>Location</span><strong>Kathmandu, Nepal</strong></div></div>
+      </div>
+      <form class="contact-form" id="contact-form">
+        <div class="form-row">
+          <div class="fg"><label>Your Name</label><input type="text" placeholder="Full Name" required/></div>
+          <div class="fg"><label>Phone</label><input type="tel" placeholder="+977 XXXXXXXXXX" required/></div>
+        </div>
+        <div class="fg"><label>Email</label><input type="email" placeholder="your@email.com"/></div>
+        <div class="fg"><label>Message</label><textarea rows="4" placeholder="How can we help?" required></textarea></div>
+        <button type="submit" class="btn-primary full"><i class="fa fa-paper-plane"></i> Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo nav-scroll" style="margin-bottom:14px;display:inline-flex"><i class="fa fa-bolt"></i><span>Nepal<em>Gadgets</em>Pasal</span></a>
+        <p>Nepal's most trusted online gadget store. Bringing the latest technology to every corner of Nepal at unbeatable prices.</p>
+        <div class="socials">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-tiktok"></i></a>
+          <a href="https://wa.me/9779763332837" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul>
+        <li><a href="#home" class="nav-scroll">Home</a></li>
+        <li><a href="#shop" class="nav-scroll">Shop</a></li>
+        <li><a href="#categories" class="nav-scroll">Categories</a></li>
+        <li><a href="#deals" class="nav-scroll">Flash Deals</a></li>
+        <li><a href="#about" class="nav-scroll">About Us</a></li>
+        <li><a href="#contact" class="nav-scroll">Contact</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Categories</h4><ul>
+        <li><a href="#shop" class="nav-scroll cat-link" data-filter="smartphones">Smartphones</a></li>
+        <li><a href="#shop" class="nav-scroll cat-link" data-filter="laptops">Laptops</a></li>
+        <li><a href="#shop" class="nav-scroll cat-link" data-filter="smartwatches">Smartwatches</a></li>
+        <li><a href="#shop" class="nav-scroll cat-link" data-filter="earbuds">Earbuds</a></li>
+        <li><a href="#shop" class="nav-scroll cat-link" data-filter="gaming">Gaming</a></li>
+        <li><a href="#shop" class="nav-scroll cat-link" data-filter="cameras">Cameras</a></li>
+      </ul></div>
+      <div class="footer-col"><h4>Contact Info</h4>
+        <ul class="fcontact">
+          <li><i class="fa fa-user"></i> Mukesh Kumar Sah</li>
+          <li><i class="fab fa-whatsapp"></i> +977 9763332837</li>
+          <li><i class="fa fa-envelope"></i> shahmukesh0563@gmail.com</li>
+          <li><i class="fa fa-map-marker-alt"></i> Kathmandu, Nepal</li>
+        </ul>
+        <div class="pay-wrap"><p>We Accept:</p><div class="pay-badges"><span>eSewa</span><span>Khalti</span><span>FonePay</span><span>COD</span></div></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 NepalGadgetsPasal. All Rights Reserved. Made with <i class="fa fa-heart" style="color:#ef4444"></i> in Nepal</p>
+      <div><a href="#">Privacy Policy</a><a href="#">Terms</a><a href="#">Refund Policy</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- CART SIDEBAR -->
+<div class="overlay" id="cart-overlay"></div>
+<aside class="cart-sidebar" id="cart-sidebar">
+  <div class="sidebar-head"><h3><i class="fa fa-shopping-cart"></i> Your Cart</h3><button id="cart-close"><i class="fa fa-times"></i></button></div>
+  <div class="cart-items-wrap" id="cart-items-wrap">
+    <div class="empty-cart" id="empty-cart"><i class="fa fa-shopping-cart"></i><p>Your cart is empty</p><button class="btn-primary" id="start-shopping-btn">Start Shopping</button></div>
+  </div>
+  <div class="cart-footer" id="cart-footer" style="display:none">
+    <div class="cart-total-row"><span>Subtotal:</span><strong id="cart-total-amt">Rs. 0</strong></div>
+    <button class="btn-primary full" id="checkout-btn"><i class="fa fa-credit-card"></i> Proceed to Checkout</button>
+  </div>
+</aside>
+
+<!-- PRODUCT MODAL -->
+<div class="overlay" id="modal-overlay"></div>
+<div class="modal" id="product-modal">
+  <button class="modal-close" id="modal-close"><i class="fa fa-times"></i></button>
+  <div id="modal-body"></div>
+</div>
+
+<!-- CHECKOUT MODAL -->
+<div class="overlay" id="checkout-overlay"></div>
+<div class="modal checkout-modal" id="checkout-modal">
+  <button class="modal-close" id="checkout-close"><i class="fa fa-times"></i></button>
+  <div id="checkout-body">
+    <h2><i class="fa fa-lock"></i> Secure Checkout</h2>
+    <form id="co-form">
+      <div class="co-section">
+        <h4><i class="fa fa-user"></i> Delivery Details</h4>
+        <div class="form-row">
+          <div class="fg"><label>Full Name *</label><input id="co-name" placeholder="Your Full Name" required/></div>
+          <div class="fg"><label>Phone *</label><input id="co-phone" type="tel" placeholder="+977 XXXXXXXXXX" required/></div>
+        </div>
+        <div class="fg"><label>Address *</label><input id="co-address" placeholder="Street / Tole / Ward No." required/></div>
+        <div class="form-row">
+          <div class="fg"><label>City *</label><input id="co-city" placeholder="e.g. Kathmandu" required/></div>
+          <div class="fg"><label>Notes</label><input id="co-notes" placeholder="Special instructions"/></div>
+        </div>
+      </div>
+      <div class="co-section">
+        <h4><i class="fa fa-list"></i> Order Summary</h4>
+        <div id="co-summary"></div>
+        <div class="co-total"><span>Total:</span><strong id="co-total-amt">Rs. 0</strong></div>
+      </div>
+      <div class="co-section">
+        <h4><i class="fa fa-credit-card"></i> Payment Method</h4>
+        <div class="pay-methods">
+          <label class="pay-opt"><input type="radio" name="pay" value="cod" checked><div class="pay-card"><i class="fa fa-money-bill-wave"></i><span>Cash on Delivery</span></div></label>
+          <label class="pay-opt"><input type="radio" name="pay" value="esewa"><div class="pay-card"><i class="fa fa-wallet" style="color:#22c55e"></i><span>eSewa</span></div></label>
+          <label class="pay-opt"><input type="radio" name="pay" value="khalti"><div class="pay-card"><i class="fa fa-wallet" style="color:#7c3aed"></i><span>Khalti</span></div></label>
+          <label class="pay-opt"><input type="radio" name="pay" value="fonepay"><div class="pay-card"><i class="fa fa-qrcode" style="color:#f97316"></i><span>FonePay</span></div></label>
+        </div>
+      </div>
+      <div class="esewa-box" id="esewa-box" style="display:none">
+        <div class="esewa-header">
+          <div class="esewa-logo-badge">eSewa</div>
+          <div><p><strong>eSewa ID:</strong> 9763332837</p><p><strong>Name:</strong> Mukesh Kumar Sah</p></div>
+        </div>
+        <div class="qr-wrap">
+          <img src="esewa-qr.jpg" alt="eSewa QR" id="esewa-qr-img"/>
+          <p class="qr-caption"><i class="fa fa-qrcode"></i> Scan QR code to pay</p>
+        </div>
+        <div class="fg"><label>Upload Payment Screenshot</label><input type="file" id="pay-screenshot" accept="image/*"/></div>
+        <div class="fg"><label>Transaction ID *</label><input id="txn-id" placeholder="Enter eSewa transaction ID"/></div>
+      </div>
+      <button type="submit" class="btn-primary full" style="padding:15px;font-size:15px;margin-top:8px"><i class="fa fa-check-circle"></i> Confirm Order</button>
+    </form>
+  </div>
+</div>
+
+<!-- WISHLIST MODAL -->
+<div class="overlay" id="wish-overlay"></div>
+<div class="modal" id="wish-modal">
+  <button class="modal-close" id="wish-close"><i class="fa fa-times"></i></button>
+  <h2 style="margin-bottom:20px"><i class="fa fa-heart" style="color:#ef4444"></i> My Wishlist</h2>
+  <div id="wish-body"></div>
+</div>
+
+<!-- LOGIN MODAL -->
+<div class="overlay" id="login-overlay"></div>
+<div class="modal login-modal" id="login-modal">
+  <button class="modal-close" id="login-close"><i class="fa fa-times"></i></button>
+  <div class="login-logo"><i class="fa fa-bolt"></i> NepalGadgetsPasal</div>
+  <h2>Welcome Back</h2>
+  <p style="color:var(--muted);margin-bottom:24px">Login to access your orders and wishlist</p>
+  <form id="login-form">
+    <div class="fg"><label>Email / Phone</label><input type="text" placeholder="Email or Phone" required/></div>
+    <div class="fg"><label>Password</label><input type="password" placeholder="Password" required/></div>
+    <button type="submit" class="btn-primary full">Login</button>
+  </form>
+  <p style="text-align:center;margin-top:16px;font-size:13px;color:var(--muted)">Don't have an account? <a href="#" style="color:var(--accent2)">Sign up</a></p>
+</div>
+
+<!-- FLOATS -->
+<a href="https://wa.me/9779763332837" target="_blank" class="wa-float" id="wa-float">
+  <i class="fab fa-whatsapp"></i>
+  <span class="wa-tip">Chat with us!</span>
+</a>
+<button class="scroll-top" id="scroll-top"><i class="fa fa-chevron-up"></i></button>
+
+<!-- MOBILE BOTTOM NAV -->
+<nav class="mobile-nav">
+  <button class="mnav-btn" data-target="home"><i class="fa fa-home"></i><span>Home</span></button>
+  <button class="mnav-btn" data-target="categories"><i class="fa fa-th-large"></i><span>Categories</span></button>
+  <button class="mnav-btn" data-target="shop"><i class="fa fa-shopping-bag"></i><span>Shop</span></button>
+  <button class="mnav-btn" id="mnav-wish"><i class="fa fa-heart"></i><span>Wishlist</span><span class="mb-badge" id="mb-wish">0</span></button>
+  <button class="mnav-btn" id="mnav-cart"><i class="fa fa-shopping-cart"></i><span>Cart</span><span class="mb-badge" id="mb-cart">0</span></button>
+</nav>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
